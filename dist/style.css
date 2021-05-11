@@ -1,0 +1,14 @@
+html { font-size: 100%; box-sizing: border-box; }
+
+*, *::before, *::after { box-sizing: inherit; }
+
+body { width: 100vw; height: 100vh; margin: 0; padding: 0; font-family: "Poppins", sans-serif; font-size: 15px; }
+
+.color-vdb { color: #4c4e61; }
+
+.color-gb { color: #a3a5ae; }
+
+.attribution { width: 100%; position: relative; font-size: 0.8125rem; /*13px*/ text-align: center; color: black; }
+
+.attribution a { color: #d34141; }
+/*# sourceMappingURL=style.css.map */
