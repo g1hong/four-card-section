@@ -21,3 +21,37 @@
     }
   }
 }
+
+@include breakpoint-up(medium) {
+  .container {
+    max-width: 1000px;
+
+    header {
+      h2,
+      h1 {
+        font-size: 30px;
+      }
+      p {
+        width: 460px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@include breakpoint-up(xlarge) {
+  .container {
+    max-width: 1200px;
+
+    header {
+      h2,
+      h1 {
+        font-size: 36px;
+      }
+      p {
+        width: 500px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
